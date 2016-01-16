@@ -1,0 +1,25 @@
+#home {
+	position: relative;
+	padding: 100px 0;
+}
+.control-home {
+ 	padding:105px 0 30px;
+ }
+.intro {
+	margin-bottom: 35px;
+}
+.section-home .phone-image {
+	padding: 30px 0;
+} 
+
+@media (max-width: 991px) {
+	.intro-section {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 768px) {
+	.control-home {
+		padding-top: 0px;
+	}
+}
+

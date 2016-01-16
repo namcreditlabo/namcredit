@@ -1,0 +1,137 @@
+.style-switcher .toggle:hover {
+                background: #16a085;
+            }
+            .style-switcher .toggle:hover,
+            .widget_tag_cloud .tagcloud a:hover {
+                border-color: #16a085;
+            }
+            .cl-dfl {
+                background: #0199C8;
+            }
+            .cl-1 {
+                background: #2271CE;    
+            }
+            .cl-2 {
+                background: #D73D35;    
+            }
+            .cl-3 {
+                background: #673ADB;    
+            }
+            .cl-4 {
+                background: #00A346;    
+            }
+            .style-switcher {
+                background: #fff;
+                width: 220px;
+                position: fixed;
+                left: -220px;
+                top: 116px;
+                z-index: 120000;
+                border: 1px solid #ddd;
+                padding:0 20px 20px 20px;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+            .style-switcher.panel-merge{
+                left: 0px !important;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+            .style-switcher h3 {
+                font-size: 16px;
+                border-bottom: 1px solid #ddd;
+                margin: 0 -20px 20px -20px;
+                padding: 15px 20px;
+            }
+            .style-switcher h4 {
+                font-size: 12px;
+                color: #747474;
+            }
+            .style-switcher ul {
+                padding: 10px;
+                list-style: none;
+                margin-bottom: 10px;
+                display: inline-block;
+                border-bottom: 1px dashed #ddd;
+                width: 100%;
+                padding-bottom: 20px;
+            }
+            .style-switcher ul li {
+                cursor: pointer;
+            }
+            .style-switcher ul.color-list li.cl-item {
+                width: 25px;
+                height: 25px;
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .style-switcher .toggle:hover i {
+                color: #fff;
+            }
+            .style-switcher .toggle {
+                background: #FFF;
+                border: 1px solid #ddd;
+                padding: 10px;
+                font-size: 16px;
+                color: #272727;
+                position: absolute;
+                overflow: hidden;
+                right: -42px;
+                top: 48px;
+                width: 42px;
+                text-align: center;
+                outline: 0;
+            }
+
+            @media screen and (-webkit-min-device-pixel-ratio:0) {
+                .style-switcher .toggle {
+                    top: 47px;
+                }
+            }
+            .style-switcher .toggle i{
+                color: #272727;
+            }
+
+            .demo-only {
+                position: fixed;
+                background: #fff;
+                font-size: 12px;
+                color: #6D71AE;
+                top: 59%;
+                left: -135px;
+                -webkit-transition: all .4s;
+                -o-transition: all .4s;
+                transition: all .4s;
+            }
+            .demo-only:hover {
+                left: 0;
+            }
+            .demo-wrp {
+                display: table;
+            }
+            .demo-only a {
+                display: table-cell;
+                vertical-align: middle;
+                padding: 8px 13px 7px 10px;
+                font-size: 12px;
+                color: #6D71AE;
+            }
+            .demo-only i {
+                font-size: 20px;
+                padding-left: 10px;
+            }
+            .color-wrp {
+                text-align: center;
+            }
+            .color-wrp li {
+                display: inline-block;
+            }
+            .color-wrp a {
+                display: inline-block;
+                padding: 13px;
+            }
